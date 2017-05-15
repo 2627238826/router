@@ -1,0 +1,17 @@
+
+<div style="text-align: center;color: green;">
+    <div>
+        <h1>111111内容</h1>
+    </div>
+    Click me: <input type="checkbox" ng-model="checked" ng-init="checked=true" /><br />
+    Show when checked:
+        <span ng-if="checked" class="animate-if">
+        This is removed when the checkbox is unchecked.
+        </span>
+
+
+    <button ng-mousemove="count = count + 1" ng-init="count=0">
+        Increment (when mouse moves)
+    </button>
+    count: {{count}}
+</div>
